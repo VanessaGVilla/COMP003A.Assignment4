@@ -22,6 +22,9 @@ namespace COMP003A.Assignment4
             Console.WriteLine(friends[3]);
             Console.WriteLine(friends[4]);
             Console.WriteLine(friends[5]);
+            Console.WriteLine(friends[6]);
+
+
 
 
 
