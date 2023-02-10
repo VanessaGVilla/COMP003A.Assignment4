@@ -13,6 +13,15 @@ namespace COMP003A.Assignment4
             Console.WriteLine("******************************************");
             Console.WriteLine("Friends");
             Console.WriteLine("Array");
+
+            string[] friends = new string[] 
+            { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
+
+            Console.WriteLine(friends[1]);
+
+
+
+
         }
     }
 }
