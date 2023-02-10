@@ -17,12 +17,13 @@ namespace COMP003A.Assignment4
             string[] friends = new string[] 
             { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
 
+            Console.WriteLine(friends[0]);
             Console.WriteLine(friends[1]);
             Console.WriteLine(friends[2]);
             Console.WriteLine(friends[3]);
             Console.WriteLine(friends[4]);
             Console.WriteLine(friends[5]);
-            Console.WriteLine(friends[6]);
+            
 
 
 
