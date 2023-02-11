@@ -25,8 +25,15 @@ namespace COMP003A.Assignment4
             }
 
             string output = "#";
+            int i = 0;
+            while (i <= limit)
 
-            Console.WriteLine(" The limit is: " + limit);
+            {
+                Console.WriteLine(output);
+                output += "#";
+            }
+
+                Console.WriteLine(" The limit is: " + limit);
             Console.WriteLine("The output is: " + output);
         }
     }
@@ -40,9 +47,9 @@ namespace COMP003A.Assignment4
 
 
 
-            Console.WriteLine("****************************************");
-            Console.WriteLine("Friends");
-            Console.WriteLine("Array");
+          Console.WriteLine("***************************************");
+          Console.WriteLine("Friends");
+          Console.WriteLine("Array");
 
             string[] friends = new string[] 
             { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
@@ -72,6 +79,4 @@ namespace COMP003A.Assignment4
 
 
 
-        }
-    }
-}
+        
