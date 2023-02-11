@@ -6,7 +6,7 @@
 
 namespace COMP003A.Assignment4
 {
-   class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -15,24 +15,21 @@ namespace COMP003A.Assignment4
             Console.WriteLine("Right Triangle");
 
             {
-                static void Main(string[] args)
+                Console.Write("Enter a positive whole number: ");
+                int limit = Convert.ToInt32(Console.ReadLine());
 
+                string output = "#";
+
+                for (int i = 0; i <= limit; i++)
                 {
-                    Console.Write("Enter a positive whole number: ");
-                    int limit = Convert.ToInt32(Console.ReadLine());
-
-                    string output = "#";
-
-                    for (int i = 0; i <= limit; i++)
-                    {
-                        Console.WriteLine(output);
-                        output += "#";
-                    }
-
-                    Console.ReadLine();
+                    Console.WriteLine(output);
+                    output += "#";
                 }
+
+                Console.ReadLine();
             }
         }
+    }
 
 
 
@@ -43,11 +40,11 @@ namespace COMP003A.Assignment4
 
 
 
-          Console.WriteLine("***************************************");
-          Console.WriteLine("Friends");
-          Console.WriteLine("Array");
+            Console.WriteLine("***************************************");
+            Console.WriteLine("Friends");
+            Console.WriteLine("Array");
 
-            string[] friends = new string[] 
+            string[] friends = new string[]
             { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
 
             Console.WriteLine(friends[0]);
@@ -58,9 +55,9 @@ namespace COMP003A.Assignment4
             Console.WriteLine(friends[5]);
 
 
-                Console.WriteLine("******************************************");
-                Console.WriteLine("Do While Loop");
-                Console.WriteLine("Counting by 5");
+            Console.WriteLine("******************************************");
+            Console.WriteLine("Do While Loop");
+            Console.WriteLine("Counting by 5");
 
             {
                 int Counter = 0;
@@ -70,7 +67,11 @@ namespace COMP003A.Assignment4
                     Console.WriteLine(Counter);
                     Counter += 5;
                 } while (Counter <= 50);
-            }
+            
+        
+
+    
+
 
 
 
