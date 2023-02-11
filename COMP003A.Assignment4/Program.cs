@@ -10,7 +10,37 @@ namespace COMP003A.Assignment4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("******************************************");
+            Console.WriteLine("***************************************");
+            Console.WriteLine("Loop Section");
+            Console.WriteLine("Right Triangle");
+
+            Console.WriteLine("Enter a positive whole number:");
+            int limit;
+
+            while (!int.TryParse(Console.ReadLine(), out limit) || limit <= 0)
+            {
+
+
+                Console.WriteLine("Invalid input.Please enter a positive whole number:");
+            }
+
+            string output = "#";
+
+            Console.WriteLine(" The limit is: " + limit);
+            Console.WriteLine("The output is: " + output);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+            Console.WriteLine("****************************************");
             Console.WriteLine("Friends");
             Console.WriteLine("Array");
 
@@ -23,10 +53,21 @@ namespace COMP003A.Assignment4
             Console.WriteLine(friends[3]);
             Console.WriteLine(friends[4]);
             Console.WriteLine(friends[5]);
-            
 
 
+                Console.WriteLine("******************************************");
+                Console.WriteLine("Do While Loop");
+                Console.WriteLine("Counting by 5");
 
+            {
+                int Counter = 0;
+
+                do
+                {
+                    Console.WriteLine(Counter);
+                    Counter += 5;
+                } while (Counter <= 50);
+            }
 
 
 
