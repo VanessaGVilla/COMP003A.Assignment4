@@ -35,11 +35,6 @@ namespace COMP003A.Assignment4
 
 
 
-
-
-
-
-
             Console.WriteLine("***************************************");
             Console.WriteLine("Friends");
             Console.WriteLine("Array");
@@ -67,8 +62,48 @@ namespace COMP003A.Assignment4
                     Console.WriteLine(Counter);
                     Counter += 5;
                 } while (Counter <= 50);
-            
-        
+
+
+        Console.WriteLine("***************************************");
+        Console.WriteLine("For Loop Section");
+        Console.WriteLine("FooBar");
+
+            {
+                int counter2 = 1;
+                while (counter2 <= 100)
+
+                {
+                    if (counter2 % 2 == 0 && counter2 % 5 == 0)
+                    
+                {
+            Console.WriteLine("FooBar");
+        }
+        else if (counter2 % 2 == 0)
+        {
+            Console.WriteLine("Foo");
+        }
+        else if (counter2 % 5 == 0)
+        {
+            Console.WriteLine("Bar");
+        }
+        else
+        {
+            Console.WriteLine(counter2);
+        }
+
+        counter2++;
+    }
+
+
+
+
+
+}
+
+
+
+
+
 
     
 
@@ -76,4 +111,12 @@ namespace COMP003A.Assignment4
 
 
 
-        
+
+
+
+
+
+
+
+
+
