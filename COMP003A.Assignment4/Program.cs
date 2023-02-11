@@ -6,7 +6,7 @@
 
 namespace COMP003A.Assignment4
 {
-    internal class Program
+   class Program
     {
         static void Main(string[] args)
         {
@@ -14,30 +14,26 @@ namespace COMP003A.Assignment4
             Console.WriteLine("Loop Section");
             Console.WriteLine("Right Triangle");
 
-            Console.WriteLine("Enter a positive whole number:");
-            int limit;
-
-            while (!int.TryParse(Console.ReadLine(), out limit) || limit <= 0)
             {
+                static void Main(string[] args)
 
+                {
+                    Console.Write("Enter a positive whole number: ");
+                    int limit = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Invalid input.Please enter a positive whole number:");
+                    string output = "#";
+
+                    for (int i = 0; i <= limit; i++)
+                    {
+                        Console.WriteLine(output);
+                        output += "#";
+                    }
+
+                    Console.ReadLine();
+                }
             }
-
-            string output = "#";
-            int i = 0;
-            while (i <= limit)
-
-            {
-                Console.WriteLine(output);
-                output += "#";
-            }
-
-                Console.WriteLine(" The limit is: " + limit);
-            Console.WriteLine("The output is: " + output);
         }
-    }
-}
+
 
 
 
