@@ -60,18 +60,24 @@ namespace ClearConsole
 
 
                 Console.WriteLine("******************************************");
-                Console.WriteLine("Do While Loop");
+                Console.WriteLine("Do-While Loop");
                 Console.WriteLine("Counting by 5");
+                Console.WriteLine("******************************************");
 
                 {
                     int Counter = 0;
+                    //declare integer named counter and assigned a value of 0//
 
                     do
                     {
                         Console.WriteLine(Counter);
-                        Counter += 5;
-                    } while (Counter <= 50);
+                        //Output the value of the variable counter//
 
+                        Counter += 5;
+                        //Adding 5 to the counter value//
+
+                    } while (Counter <= 50);
+                    //counter is less than or equal to 50//
 
                     Console.WriteLine("***************************************");
                     Console.WriteLine("While Loop Section");
