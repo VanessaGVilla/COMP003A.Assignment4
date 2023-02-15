@@ -14,26 +14,39 @@ namespace ClearConsole
         {
             Console.WriteLine("***************************************");
             Console.WriteLine("For-Loop Section");
-            Console.WriteLine("Right Triangle");
+            Console.WriteLine("Output a Right Triangle based on user input");
+            Console.WriteLine("****************************************");
 
             {
                 Console.Write("Enter a positive whole number: ");
+
+                
                 int limit = Convert.ToInt32(Console.ReadLine());
+                //integer named limit and convert response to integer//
 
                 string output = "#";
+                //string variable named output assigned value of # //
 
                 for (int i = 0; i <= limit; i++)
+         /*looping variable named i with value of 0
+         * loop as long as i is than or equal to
+         * variable limit, increment i by 1
+         */
                 {
                     Console.WriteLine(output);
+                    //output the value of the the variable output//
+
                     output += "#";
+                    //concatenate the current value of output with #//
                 }
 
                 Console.ReadLine();
 
 
                 Console.WriteLine("***************************************");
-                Console.WriteLine("Friends");
-                Console.WriteLine("Array");
+                Console.WriteLine("Foreach Friends Section");
+               Console.WriteLine("Output every Friends in an Array");
+                Console.WriteLine("***************************************");
 
                 string[] friends = new string[]
                 { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
