@@ -82,22 +82,33 @@ namespace ClearConsole
                     Console.WriteLine("***************************************");
                     Console.WriteLine("While Loop Section");
                     Console.WriteLine("FooBar");
+                    Console.WriteLine("***************************************");
 
                     {
                         int counter2 = 1;
+                        //declaring an integer named counter 2 and assigning value of 1//
+
+
                         while (counter2 <= 20)
+                        //counter 2 is less than or equal to 20//
 
                         {
                             if (counter2 % 2 == 0 && counter2 % 5 == 0)
+                            //if counter 2 is divisible by 2 and 5 Foobar will be output//
+
 
                             {
                                 Console.WriteLine("FooBar");
                             }
                             else if (counter2 % 2 == 0)
+                            //if counter 2 is divisible by 2 Foo will output//
+
                             {
                                 Console.WriteLine("Foo");
                             }
                             else if (counter2 % 5 == 0)
+                            //if counter 2 is divisible by 5 Bar will output//
+
                             {
                                 Console.WriteLine("Bar");
                             }
@@ -107,6 +118,7 @@ namespace ClearConsole
                             }
 
                             counter2++;
+                            //value of counter 2 will increment by 1//
                         }
 
                     }
