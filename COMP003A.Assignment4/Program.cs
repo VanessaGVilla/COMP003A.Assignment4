@@ -66,7 +66,7 @@ namespace ClearConsole
 
                     {
                         int counter2 = 1;
-                        while (counter2 <= 100)
+                        while (counter2 <= 20)
 
                         {
                             if (counter2 % 2 == 0 && counter2 % 5 == 0)
